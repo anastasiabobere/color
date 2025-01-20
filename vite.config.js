@@ -4,10 +4,10 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/my-react-app/", // Must match your repository name exactly
-  build: {
-    outDir: "dist",
-    sourcemap: true,
-    emptyOutDir: true,
-  },
+  // base: "/my-react-app/", // Must match your repository name exactly
+  // build: {
+  //   outDir: "dist",
+  //   sourcemap: true,
+  //   emptyOutDir: true,
+  // },
 });
